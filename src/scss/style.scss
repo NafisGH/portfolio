@@ -1,0 +1,24 @@
+// @import "normalize.css";
+@import "./rest.scss";
+// @import "./burger-menu.scss";
+// @import "./competencies.scss";
+// @import "./contacts.scss";
+// @import "./footer.scss";
+@import "./header.scss";
+// @import "./projects.scss";
+// @import "./service.scss";
+
+body {
+  font-family: "Roboto", sans-serif;
+  // background-image: url("/public/img/code_img.jpg");
+  overflow-x: hidden; /* Отключение горизонтальной прокрутки */
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+// @media (max-width: 768px) {
+//   body {
+//     width: 960px;
+//   }
+// }

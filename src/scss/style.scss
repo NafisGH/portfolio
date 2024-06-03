@@ -1,24 +1,27 @@
 // @import "normalize.css";
 @import "./rest.scss";
-// @import "./burger-menu.scss";
+@import "./header.scss";
+@import "./burger-menu.scss";
+@import "./projects.scss";
 // @import "./competencies.scss";
 // @import "./contacts.scss";
 // @import "./footer.scss";
-@import "./header.scss";
-// @import "./projects.scss";
 // @import "./service.scss";
+
+
 
 body {
   font-family: "Roboto", sans-serif;
-  // background-image: url("/public/img/code_img.jpg");
-  overflow-x: hidden; /* Отключение горизонтальной прокрутки */
+  overflow-x: hidden;
+  background: rgb(41,41,41);
+background: -moz-linear-gradient(90deg, rgba(41,41,41,1) 0%, rgba(246,247,255,1) 50%, rgba(41,41,41,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(41,41,41,1) 0%, rgba(246,247,255,1) 50%, rgba(41,41,41,1) 100%);
+background: linear-gradient(90deg, rgba(41,41,41,1) 0%, rgba(246,247,255,1) 50%, rgba(41,41,41,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#292929",endColorstr="#292929",GradientType=1);
 }
 .container {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
+  padding: 0 20px;
+  
 }
-// @media (max-width: 768px) {
-//   body {
-//     width: 960px;
-//   }
-// }

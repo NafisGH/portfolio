@@ -8,12 +8,6 @@
   border-radius: 25px;
 }
 
-.projects__container {
-  background: #000;
-  padding-left: 125px;
-  padding-right: 125px;
-  padding-bottom: 150px;
-}
 .projects__inner {
   padding-top: 150px;
    a {
@@ -35,28 +29,30 @@
 .slide__metrica-img {
   background-image: url("/img/metrica.png");
   @extend %slide-img-size;
+  margin-bottom: 10px;
 }
 .slide__nothing-img {
   background-image: url("/img/nothing.png");
   @extend %slide-img-size;
+  margin-bottom: 10px;
 }
 .slide__toptrip-img {
   background-image: url("/img/toptrip.png");
   @extend %slide-img-size;
 }
 
-.slide__name_wrapper {
-  padding: 10px 20px;
+.slide__name {
+  padding: 15px 25px;
   border-radius: 100px;
-  background: #1bff07;
+  background: #ddedee;
   position: absolute;
-  top: 50px;
-  left: 45px;
-  font-size: 20px;
+  top: 20px;
+  left: 25px;
+  font-size: 30px;
   letter-spacing: -0.6px;
   color: #000;
 }
-.slide__discription-wrapper {
+.slide__discription {
   position: absolute;
   left: 50px;
   bottom: 50px;
@@ -70,34 +66,29 @@
     letter-spacing: -0.9px;
   }
 }
-.projects__btn-see-all {
-  width: 582px;
-  height: 153px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  background: #1bff07;
-  padding: 56px 85px;
+.projects__button {
+  border-radius: 20px;
+  background: #00a6d0;
+  padding: 30px 50px;
   font-size: 30px;
-  letter-spacing: -0.9px;
   margin-top: 80px;
+  text-transform: uppercase;
 }
-.projects__btn-see-all:hover {
+.projects__button:hover {
   cursor: pointer;
   opacity: 0.7;
 }
+@media (max-width: 992px) {
+
+}
 
 @media (max-width: 768px) {
-  .projects__container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
   .projects__title {
-    color: #fff;
     font-size: 45px;
     letter-spacing: -1.35px;
     margin-bottom: 53px;
   }
-  .slide__name_wrapper {
+  .slide__name {
     padding: 8px 16px;
     border-radius: 80px;
     top: 40px;
@@ -107,7 +98,7 @@
       letter-spacing: -0.48px;
     }
   }
-  .slide__discription-wrapper {
+  .slide__discription {
     left: 40px;
     bottom: 40px;
     h3 {
@@ -119,11 +110,13 @@
       letter-spacing: -0.72px;
     }
   }
-  .projects__btn-see-all {
-    width: 460px;
-    height: 124px;
-    padding: 45px 68px;
+  .projects__button {
+    padding: 30px 50px;
     font-size: 25px;
     margin-top: 64px;
   }
+}
+
+@media (max-width: 576px) {
+
 }

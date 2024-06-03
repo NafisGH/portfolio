@@ -1,5 +1,3 @@
-import "../scss/burger-menu.scss";
-
 const BURGER_OPENED_CLASSNAME = "burger_open";
 const BURGER_BTN_OPENED_CLASSNAME = "burger-btn_open";
 const BODY_FIXED_CLASSNAME_burger = "body_fixed";
@@ -15,6 +13,7 @@ btnCloseBurgerMenu.addEventListener("click", toggleBurger);
 burgerBtnNode.addEventListener("click", toggleBurger);
 
 burgerNode.addEventListener("click", (event) => {
+  console.log("burgerNode.addEventListener");
   const isClickOutsideContent = !event
     .composedPath()
     .includes(burgerContentNode);

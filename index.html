@@ -15,7 +15,7 @@
     <div class="container">
       <div class="header__inner">
         <div class="logo">
-          <img class="logo__img" src="./public/img/avatar.jpg" alt="">
+          <img class="logo__img" src="./public/img/ava.png" alt="">
         </div>
         <div class="header__svg">
           <svg class="js-burger-btn" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,19 +26,19 @@
         <nav class="header__menu">
           <ul class="header__menu-list">
             <li class="header__menu-item">
-              <button class="header__menu-button">About</button>
+              <a href="#" class="header__menu-link">About</a>
             </li>
             <li class="header__menu-item">
-              <button class="header__menu-button">Skills</button>
+              <a href="" class="header__menu-link">Skills</a>
             </li>
             <li class="header__menu-item">
-              <button class="header__menu-button">Portfolio</button>
+              <a href="#portfolio" class="header__menu-link">Portfolio</a>
             </li>
             <li class="header__menu-item">
-              <button class="header__menu-button">Work Experience</button>
+              <a href="" class="header__menu-link">Work Experience</a>
             </li>
             <li class="header__menu-item">
-              <button class="header__menu-button">Contacts</button>
+              <a href="" class="header__menu-link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -51,7 +51,6 @@
   <main class="main">
       <section class="hero">
         <div class="container">
-          <!-- <div class="hero__fon-img"> -->
             <div class="hero__inner">
               <div class="hero__body">
                 <h1 class="hero__title">Привет! меня зовут Нафис я Frontend разарботчик.</h1>
@@ -60,11 +59,9 @@
                   </h2>
               </div>
               <div class="hero__picture">
-                <img src="./public/img/corporate-website.png" alt="">
+                <img class="hero__img" src="./public/img/corporate-website.png" alt="">
               </div>
             </div>
-            
-          <!-- </div> -->
         </div>
         <div class="js-burger burger">
           <div class="js-burger__content burger__content">
@@ -95,7 +92,53 @@
         </div>
       </section>
 
-    <section class="projects">
+      <section class="skills">
+        <div class="container">
+          <div class="skills__inner">
+            <div class="skills__category skills__category--hard">
+              <h2 class="skills__title">Hard skills</h2>
+              <div class="skills__body">
+                <ul class="skills__list">
+                  <li class="skills__item">HTML (HTML5), EJS, JSX</li>
+                  <li class="skills__item">CSS (CSS3), SASS (SCSS), PostCSS, Animations</li>
+                  <li class="skills__item">JavaScript (ES6+, OOP), TypeScript</li>
+                  <li class="skills__item">React</li>
+                  <li class="skills__item">Redux (Redux Toolkit)</li>
+                  <li class="skills__item">Formik, React Hook Form, Axios, React Router</li>
+                  <li class="skills__item">Webpack, Vite</li>
+                  <li class="skills__item">REST API</li>
+                  <li class="skills__item">BEM</li>
+                  <li class="skills__item">Git (GitHub, GitLab)</li>
+                  <li class="skills__item">Figma</li>
+                  <li class="skills__item">SCRUM</li>
+                  <li class="skills__item">English level - B1</li>
+                </ul>
+              </div>
+            </div>
+            <div class="skills__category skills__category--soft">
+              <h2 class="skills__title">Soft skills</h2>
+              <div class="skills__body">
+                <ul class="skills__list">
+                  <li class="skills__item">Я умею работать в команде, имею опыт взаимодействия с дизайнерами, менеджерами и другими разработчиками</li>
+                  <li class="skills__item">Ответственно отношусь к соблюдению сроков</li>
+                  <li class="skills__item">Внимательно подхожу к деталям технических заданий</li>
+                  <li class="skills__item">Требователен к качеству своего кода, соблюдаю код-стайл</li>
+                  <li class="skills__item">Обладаю навыками тайм-менеджмента</li>
+                  <li class="skills__item">Открыт к конструктивной критике и всегда рад находить новые пути для профессионального и личностного роста</li>
+                  <li class="skills__item">Умею решать конфликтные ситуации</li>
+                  <li class="skills__item">Грамотно излагаю свои мысли и формулирую вопросы</li>
+                  <li class="skills__item">Пишу подробные отчеты о проделанной работе, если это требуется</li>
+                  <li class="skills__item">Имею опыт работы с географически распределенной командой (удаленная работа)</li>
+                  <li class="skills__item">Мотивирован развивать свои навыки, постоянно изучая новые технологии в своей сфере деятельности</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <section id="portfolio" class="portfolio">
       <div class="container">
         <div class="projects__inner">
           <p class="projects__title">Мои проекты</p>

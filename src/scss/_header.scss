@@ -6,12 +6,10 @@
 }
 
 .logo {
-  max-width: 90px;
+  max-width: 110px;
   
   .logo__img {
     width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
   }
 }
 
@@ -32,7 +30,7 @@
   .header__menu-item {
     display: block;
 
-    .header__menu-button {
+    .header__menu-link {
       font-size: 18px;
     }
   }

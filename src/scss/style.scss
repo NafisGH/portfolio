@@ -3,13 +3,16 @@
 @import "./header.scss";
 @import "./burger-menu.scss";
 @import "./hero";
-@import "./projects.scss";
+@import "./portfolio.scss";
+@import "./skills.scss";
 // @import "./competencies.scss";
 // @import "./contacts.scss";
 // @import "./footer.scss";
 // @import "./service.scss";
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Roboto", sans-serif;

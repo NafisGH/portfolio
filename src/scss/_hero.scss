@@ -36,6 +36,9 @@
       .hero__title {
         font-size: 20px;
       }
+      .hero__subtitle {
+        font-size: 20px;
+      }
     }
   }
 }
@@ -43,10 +46,14 @@
 @media (max-width: 576px) {
   .hero__inner {
     padding: 0 10px;
+    flex-direction: column;
 
     .hero__body {
       .hero__title {
-        font-size: 30px;
+        font-size: 25px;
+      }
+      .hero__subtitle {
+        font-size: 25px;
       }
     }
   }

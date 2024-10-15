@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/style.css">
   <title>Portfolio</title>
 </head>
 
@@ -17,12 +18,7 @@
         <div class="logo">
           <img class="logo__img" src="./public/img/ava.png" alt="">
         </div>
-        <div class="header__svg">
-          <svg class="js-burger-btn" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M13.5001 19.5H49.5001M13.4941 31.5H49.4851M13.5001 43.5H49.4851" stroke="#1BFF07" stroke-width="3"
-              stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </div>
+
         <nav class="header__menu">
           <ul class="header__menu-list">
             <li class="header__menu-item">
@@ -42,101 +38,110 @@
             </li>
           </ul>
         </nav>
+        <div class="header__svg">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+          </svg>
+        </div>
       </div>
     </div>
   </header>
 
-  
+
 
   <main class="main">
-      <section class="hero">
-        <div class="container">
-            <div class="hero__inner">
-              <div class="hero__body">
-                <h1 class="hero__title">Привет! меня зовут Нафис я Frontend разарботчик.</h1>
-                  <h2 class="hero__subtitle">
-                    Создаю уникальные сайты, которые выделят вас среди конкурентов.
-                  </h2>
-              </div>
-              <div class="hero__picture">
-                <img class="hero__img" src="./public/img/corporate-website.png" alt="">
-              </div>
-            </div>
-        </div>
-        <div class="js-burger burger">
-          <div class="js-burger__content burger__content">
-            <div class="burger__wrapper">
-              <div class="burger__logo">
-                nafis
-              </div>
-              <nav class="burger__nav">
-                <a class="burger__link" href="#portfolio">портфолио</a>
-                <a class="burger__link" href="#main__services">компетенции</a>
-                <a class="burger__link" href="#services">услуги</a>
-                <a class="burger__link" href="#communication">контакты</a>
-              </nav>
-              <div class="burger__social-networks">
-                <p>для связи:</p>
-                <p>mail</p>
-                <p>telegram</p>
-                <p>instagram</p>
-              </div>
-              <svg class="btn-close-burger-menu" width="30" height="30" viewBox="0 0 34 34" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M26.706 9.1393C26.8271 9.0183 26.9232 8.87462 26.9889 8.71647C27.0545 8.55832 27.0883 8.38879 27.0884 8.21757C27.0885 8.04634 27.0549 7.87678 26.9895 7.71854C26.9241 7.56031 26.8281 7.41652 26.7071 7.29537C26.5861 7.17422 26.4424 7.07809 26.2843 7.01247C26.1261 6.94685 25.9566 6.91302 25.7854 6.91291C25.6141 6.91281 25.4446 6.94643 25.2863 7.01185C25.1281 7.07728 24.9843 7.17323 24.8632 7.29423L17.0001 15.1573L9.1393 7.29423C8.89463 7.04956 8.56279 6.91211 8.21677 6.91211C7.87075 6.91211 7.53891 7.04956 7.29424 7.29423C7.04956 7.53891 6.91211 7.87075 6.91211 8.21677C6.91211 8.56279 7.04956 8.89463 7.29424 9.1393L15.1573 17.0001L7.29424 24.8609C7.17309 24.9821 7.07699 25.1259 7.01142 25.2842C6.94586 25.4425 6.91211 25.6121 6.91211 25.7834C6.91211 25.9548 6.94586 26.1244 7.01142 26.2827C7.07699 26.441 7.17309 26.5848 7.29424 26.706C7.53891 26.9506 7.87075 27.0881 8.21677 27.0881C8.3881 27.0881 8.55775 27.0543 8.71604 26.9888C8.87433 26.9232 9.01815 26.8271 9.1393 26.706L17.0001 18.8429L24.8632 26.706C25.1078 26.9503 25.4396 27.0875 25.7854 27.0873C26.1312 27.0871 26.4627 26.9495 26.7071 26.7048C26.9515 26.4602 27.0886 26.1284 27.0884 25.7826C27.0882 25.4368 26.9506 25.1053 26.706 24.8609L18.8429 17.0001L26.706 9.1393Z"
-                  fill="#1BFF07" />
-              </svg>
-            </div>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__body">
+            <h1 class="hero__title">Привет! меня зовут Нафис я Frontend разарботчик.</h1>
+            <h2 class="hero__subtitle">
+              Создаю уникальные сайты, которые выделят вас среди конкурентов.
+            </h2>
+          </div>
+          <div class="hero__picture">
+            <img class="hero__img" src="./public/img/corporate-website.png" alt="">
           </div>
         </div>
-      </section>
+      </div>
+      <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+          <div class="burger__wrapper">
+            <div class="burger__logo">
+              nafis
+            </div>
+            <nav class="burger__nav">
+              <a class="burger__link" href="#portfolio">портфолио</a>
+              <a class="burger__link" href="#main__services">компетенции</a>
+              <a class="burger__link" href="#services">услуги</a>
+              <a class="burger__link" href="#communication">контакты</a>
+            </nav>
+            <div class="burger__social-networks">
+              <p>для связи:</p>
+              <p>mail</p>
+              <p>telegram</p>
+              <p>instagram</p>
+            </div>
+            <svg class="btn-close-burger-menu" width="30" height="30" viewBox="0 0 34 34" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M26.706 9.1393C26.8271 9.0183 26.9232 8.87462 26.9889 8.71647C27.0545 8.55832 27.0883 8.38879 27.0884 8.21757C27.0885 8.04634 27.0549 7.87678 26.9895 7.71854C26.9241 7.56031 26.8281 7.41652 26.7071 7.29537C26.5861 7.17422 26.4424 7.07809 26.2843 7.01247C26.1261 6.94685 25.9566 6.91302 25.7854 6.91291C25.6141 6.91281 25.4446 6.94643 25.2863 7.01185C25.1281 7.07728 24.9843 7.17323 24.8632 7.29423L17.0001 15.1573L9.1393 7.29423C8.89463 7.04956 8.56279 6.91211 8.21677 6.91211C7.87075 6.91211 7.53891 7.04956 7.29424 7.29423C7.04956 7.53891 6.91211 7.87075 6.91211 8.21677C6.91211 8.56279 7.04956 8.89463 7.29424 9.1393L15.1573 17.0001L7.29424 24.8609C7.17309 24.9821 7.07699 25.1259 7.01142 25.2842C6.94586 25.4425 6.91211 25.6121 6.91211 25.7834C6.91211 25.9548 6.94586 26.1244 7.01142 26.2827C7.07699 26.441 7.17309 26.5848 7.29424 26.706C7.53891 26.9506 7.87075 27.0881 8.21677 27.0881C8.3881 27.0881 8.55775 27.0543 8.71604 26.9888C8.87433 26.9232 9.01815 26.8271 9.1393 26.706L17.0001 18.8429L24.8632 26.706C25.1078 26.9503 25.4396 27.0875 25.7854 27.0873C26.1312 27.0871 26.4627 26.9495 26.7071 26.7048C26.9515 26.4602 27.0886 26.1284 27.0884 25.7826C27.0882 25.4368 26.9506 25.1053 26.706 24.8609L18.8429 17.0001L26.706 9.1393Z"
+                fill="#1BFF07" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <section class="skills">
-        <div class="container">
-          <div class="skills__inner">
-            <div class="skills__category skills__category--hard">
-              <h2 class="skills__title">Hard skills</h2>
-              <div class="skills__body">
-                <ul class="skills__list">
-                  <li class="skills__item">HTML (HTML5), EJS, JSX</li>
-                  <li class="skills__item">CSS (CSS3), SASS (SCSS), PostCSS, Animations</li>
-                  <li class="skills__item">JavaScript (ES6+, OOP), TypeScript</li>
-                  <li class="skills__item">React</li>
-                  <li class="skills__item">Redux (Redux Toolkit)</li>
-                  <li class="skills__item">Formik, React Hook Form, Axios, React Router</li>
-                  <li class="skills__item">Webpack, Vite</li>
-                  <li class="skills__item">REST API</li>
-                  <li class="skills__item">BEM</li>
-                  <li class="skills__item">Git (GitHub, GitLab)</li>
-                  <li class="skills__item">Figma</li>
-                  <li class="skills__item">SCRUM</li>
-                  <li class="skills__item">English level - B1</li>
-                </ul>
-              </div>
+    <section class="skills">
+      <div class="container">
+        <div class="skills__inner">
+          <div class="skills__category skills__category--hard">
+            <h2 class="skills__title">Hard skills</h2>
+            <div class="skills__body">
+              <ul class="skills__list">
+                <li class="skills__item">HTML (HTML5), EJS, JSX</li>
+                <li class="skills__item">CSS (CSS3), SASS (SCSS), PostCSS, Animations</li>
+                <li class="skills__item">JavaScript (ES6+, OOP), TypeScript</li>
+                <li class="skills__item">React</li>
+                <li class="skills__item">Redux (Redux Toolkit)</li>
+                <li class="skills__item">Formik, React Hook Form, Axios, React Router</li>
+                <li class="skills__item">Webpack, Vite</li>
+                <li class="skills__item">REST API</li>
+                <li class="skills__item">BEM</li>
+                <li class="skills__item">Git (GitHub, GitLab)</li>
+                <li class="skills__item">Figma</li>
+                <li class="skills__item">SCRUM</li>
+                <li class="skills__item">English level - B1</li>
+              </ul>
             </div>
-            <div class="skills__category skills__category--soft">
-              <h2 class="skills__title">Soft skills</h2>
-              <div class="skills__body">
-                <ul class="skills__list">
-                  <li class="skills__item">Я умею работать в команде, имею опыт взаимодействия с дизайнерами, менеджерами и другими разработчиками</li>
-                  <li class="skills__item">Ответственно отношусь к соблюдению сроков</li>
-                  <li class="skills__item">Внимательно подхожу к деталям технических заданий</li>
-                  <li class="skills__item">Требователен к качеству своего кода, соблюдаю код-стайл</li>
-                  <li class="skills__item">Обладаю навыками тайм-менеджмента</li>
-                  <li class="skills__item">Открыт к конструктивной критике и всегда рад находить новые пути для профессионального и личностного роста</li>
-                  <li class="skills__item">Умею решать конфликтные ситуации</li>
-                  <li class="skills__item">Грамотно излагаю свои мысли и формулирую вопросы</li>
-                  <li class="skills__item">Пишу подробные отчеты о проделанной работе, если это требуется</li>
-                  <li class="skills__item">Имею опыт работы с географически распределенной командой (удаленная работа)</li>
-                  <li class="skills__item">Мотивирован развивать свои навыки, постоянно изучая новые технологии в своей сфере деятельности</li>
-                </ul>
-              </div>
+          </div>
+          <div class="skills__category skills__category--soft">
+            <h2 class="skills__title">Soft skills</h2>
+            <div class="skills__body">
+              <ul class="skills__list">
+                <li class="skills__item">Я умею работать в команде, имею опыт взаимодействия с дизайнерами, менеджерами
+                  и другими разработчиками</li>
+                <li class="skills__item">Ответственно отношусь к соблюдению сроков</li>
+                <li class="skills__item">Внимательно подхожу к деталям технических заданий</li>
+                <li class="skills__item">Требователен к качеству своего кода, соблюдаю код-стайл</li>
+                <li class="skills__item">Обладаю навыками тайм-менеджмента</li>
+                <li class="skills__item">Открыт к конструктивной критике и всегда рад находить новые пути для
+                  профессионального и личностного роста</li>
+                <li class="skills__item">Умею решать конфликтные ситуации</li>
+                <li class="skills__item">Грамотно излагаю свои мысли и формулирую вопросы</li>
+                <li class="skills__item">Пишу подробные отчеты о проделанной работе, если это требуется</li>
+                <li class="skills__item">Имею опыт работы с географически распределенной командой (удаленная работа)
+                </li>
+                <li class="skills__item">Мотивирован развивать свои навыки, постоянно изучая новые технологии в своей
+                  сфере деятельности</li>
+              </ul>
             </div>
           </div>
         </div>
-      </section>
-      
+      </div>
+    </section>
+
 
     <section id="portfolio" class="portfolio">
       <div class="container">

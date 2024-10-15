@@ -1,6 +1,6 @@
 .skills__inner {
     display: grid;
-    grid-template-columns:repeat(2, 50%);
+    grid-template-columns:repeat(2, 1fr);
     column-gap: 20px;
     padding: 150px 10px 0px 10px;
 
